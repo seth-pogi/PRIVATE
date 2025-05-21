@@ -837,8 +837,8 @@ textLabel.Text = "ANTI AFK"
 Window:SelectTab(1)
 
 Library:Notify{
-	Title = "Muscle Legends Script",
-	Content = "KYY Hub",
+	Title = "Private Script",
+	Content = "SETH BNS",
 	Duration = 5
 }
 
