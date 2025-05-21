@@ -925,32 +925,6 @@ local Dropdown = Tabs.Settings:CreateDropdown("TimeControl", {
 	end
 })
 
-
-local a = game.Lighting
-a.Ambient = Color3.fromRGB(33, 33, 33)
-a.Brightness = 1
-a.ColorShift_Bottom = Color3.fromRGB(0, 0, 0)
-a.ColorShift_Top = Color3.fromRGB(255, 247, 237)
-a.EnvironmentDiffuseScale = 0.105
-a.EnvironmentSpecularScale = 0.522
-a.GlobalShadows = true
-a.OutdoorAmbient = Color3.fromRGB(51, 54, 67)
-a.ShadowSoftness = 0.04
-a.GeographicLatitude = -15.525
-a.ExposureCompensation = 0.75
-local b = Instance.new("BloomEffect", a)
-b.Enabled = true
-b.Intensity = 0.04
-b.Size = 1900
-b.Threshold = 0.915
-local c = Instance.new("ColorCorrectionEffect", a)
-c.Brightness = 0.176
-c.Contrast = 0.39
-c.Enabled = true
-c.Saturation = 0.2
-c.TintColor = Color3.fromRGB(217, 145, 57)
-
-
 Tabs.Settings:CreateButton{
 	Title = "Rejoin",
 	Description = "Instantly rejoin the same server",
